@@ -3,6 +3,13 @@ This application is built from scratch based on the specification from Udacitys 
 
 To run the app you will need to apply for an API code here at : www.themoviedb.org & enter it in the <i> MainActivity.class </i> and the <i> DetailActivity.class </i> 
 
+
+<b> Phone View : </b>
+
+![screen shot 2018-03-08 at 16 53 00](https://user-images.githubusercontent.com/33655422/37164098-58a1595e-22f1-11e8-8551-a9fb18909d37.png)
+![screen shot 2018-03-08 at 16 53 47](https://user-images.githubusercontent.com/33655422/37164101-599b8bea-22f1-11e8-8f66-6e8f959bc644.png)
+
+
 <b>Libraries Used;</b>
 
 * [Retrofit](http://square.github.io/retrofit/) 
