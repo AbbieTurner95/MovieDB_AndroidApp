@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="popular_m_item">Most Popular</string>
+    <string name="top_rated_item">Top Rated</string>
+    <string name="movie_poster_cd">Movie Poster</string>
+    <string name="no_connection_str">NO CONNECTION</string>
+    <string name="movie_description_tv">Movie Description :</string>
+    <string name="release_date_tv">Release Date :</string>
+    <string name="average_vote_of_movie_tv">Average vote of movie :</string>
+    <string name="trailers_string">Trailer</string>
+    <string name="film_reviews_string">Film Reviews</string>
+    <string name="no_reviews_string">No reviews at this time</string>
+    <string name="favorite_movies_menu">Favorite Movies</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="fav_movie_title">My Favorite Movies</string>
+    <string name="delete_all_favorites">Delete ALL</string>
+    <string name="add_string">+</string>
+    <string name="avg_vote">Avg Vote</string>
+    <string name="add_to_favs">Add to Favs</string>
+    <string name="movie_added_to_fav_strng">Movie added to favorites!</string>
+</resources>

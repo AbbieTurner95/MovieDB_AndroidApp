@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.example.com.movieapiappp2.FavoriteActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:fontFamily="@font/montereyflf"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="@string/fav_movie_title"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="3dp"
+        android:paddingBottom="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        android:id="@+id/fav_rec_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+</LinearLayout>
