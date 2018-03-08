@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
     <color name="colorPrimary">#383D3B</color>
     <color name="colorPrimaryDark">#c14c3e</color>
     <color name="colorAccent">#FE5F55</color>
     <color name="colorReviews">#F3A712</color>
     <color name="white">#EDDDD4</color>
-=======
-    <color name="colorPrimary">#50514F</color>
-    <color name="colorPrimaryDark">#F25F5C</color>
-    <color name="colorAccent">#FFE066</color>
-    <color name="white">#ffffff</color>
->>>>>>> parent of 95ad357... UI modifications
     <color name="colorButton">#292929</color>
 </resources>
