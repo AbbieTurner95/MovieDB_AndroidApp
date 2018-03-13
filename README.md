@@ -12,7 +12,7 @@ To run the app you will need to apply for an API code here at : www.themoviedb.o
 <b> Tablet View : </b>
 
 ![screen shot 2018-03-09 at 12 10 36](https://user-images.githubusercontent.com/33655422/37207015-efc6c1ec-2392-11e8-8d3d-2dec4ef65ca9.png)
-![screen shot 2018-03-09 at 12 10 08](https://user-images.githubusercontent.com/33655422/37207016-eff47326-2392-11e8-94ed-e887c7276d67.png)
+
 
 
 <b>Libraries Used;</b>
