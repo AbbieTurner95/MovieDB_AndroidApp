@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <ScrollView
     android:id="@+id/scrollView"
     android:layout_height="wrap_content"
@@ -233,3 +239,4 @@
     </LinearLayout>
 </LinearLayout>
 </ScrollView>
+</LinearLayout>

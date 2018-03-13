@@ -9,6 +9,8 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
@@ -84,6 +86,22 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
         service = restAdapter.create(MoviesApi.class);
 
         showPopularItems();
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(
+                new BottomNavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                        switch (item.getItemId()) {
+                            case R.id.action_popular:
+                                showPopularItems();
+                            case R.id.action_rated:
+                                showTopRatedItems();
+                        }
+                        return true;
+                    }
+                });
     }
 
 
@@ -140,20 +158,14 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.selection_fav, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.popular_item:
-                showPopularItems();
-                return true;
-            case R.id.top_rated_item:
-                showTopRatedItems();
-                return true;
-            case R.id.fav_movies:
+            case R.id.favorites_selection:
                 Intent intent = new Intent(this, FavoriteActivity.class);
                 startActivity(intent);
                 return true;
