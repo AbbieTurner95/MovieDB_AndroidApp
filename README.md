@@ -7,8 +7,7 @@ To run the app you will need to apply for an API code here at : www.themoviedb.o
 <b> Phone View : </b>
 
 ![screen shot 2018-03-08 at 16 53 00](https://user-images.githubusercontent.com/33655422/37164098-58a1595e-22f1-11e8-8551-a9fb18909d37.png)
-![screen shot 2018-03-13 at 09 53 24](https://user-images.githubusercontent.com/33655422/37334657-65ada4de-26a4-11e8-9129-4153f1b97e67.png)
-
+![screen shot 2018-03-13 at 09 55 23](https://user-images.githubusercontent.com/33655422/37334760-ae8ba8fe-26a4-11e8-9d5e-2c488a63d781.png)
 
 
 <b> Tablet View : </b>
