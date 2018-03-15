@@ -96,8 +96,10 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.Mov
                         switch (item.getItemId()) {
                             case R.id.action_popular:
                                 showPopularItems();
+                                return true;
                             case R.id.action_rated:
                                 showTopRatedItems();
+                                return true;
                         }
                         return true;
                     }
